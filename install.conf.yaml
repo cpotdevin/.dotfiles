@@ -1,0 +1,25 @@
+- clean: ['~']
+
+- shell:
+  - command: ./pre-install.sh
+    stdin: true
+    stdout: true
+    description: Running pre installation script]
+  - command: brew bundle
+    stdin: true
+    stdout: true
+    description: Install brew bundle]
+  - command: curl -s "https://get.sdkman.io" | bash
+    stdin: true
+    stdout: true
+    description: Install SDKMAN!
+
+- create:
+  - ~/.config/nvim
+  - ~/Developer
+
+- link:
+    ~/.zshrc: zsh/.zshrc
+    ~/.tmux.conf: tmux/.tmux.conf
+    ~/.config/nvim/init.vim: nvim/init.vim
+    ~/.config/nvim/coc-settings.json: nvim/coc-settings.json
