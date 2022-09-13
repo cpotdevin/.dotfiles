@@ -1,6 +1,7 @@
 :set encoding=utf-8
 :set number
 :set relativenumber
+:set cursorline
 :set autoindent
 :set tabstop=2
 :set shiftwidth=2
