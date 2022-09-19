@@ -92,6 +92,8 @@ export GOBIN="$HOME/go/bin"
 export PATH="$HOME/bin:/usr/local/bin:$PATH:$GOBIN"
 export GOPRIVATE="github.com/kikinteractive/*"
 
+export PATH="$PATH:$(pyenv root)/shims"
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 

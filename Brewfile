@@ -36,6 +36,7 @@ brew "mysql", restart_service: true
 brew "neovim"
 brew "openssl@3"
 brew "parallel"
+brew "pyenv"
 brew "pnpm"
 brew "pv"
 brew "r"
