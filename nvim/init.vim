@@ -25,6 +25,9 @@
 :nnoremap <C-e> 2<C-e>
 :nnoremap <C-y> 2<C-y>
 
+" paste without loosing the paste register
+:xnoremap <leader>p "_dP
+
 call plug#begin()
 
 Plug 'vim-airline/vim-airline'
