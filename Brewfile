@@ -75,6 +75,7 @@ cask "visual-studio-code"
 cask "visualvm"
 cask "vlc"
 cask "whatsapp"
+cask "zoom"
 mas 'The Unarchiver', id: 425424353
 mas 'iMovie', id: 408981434
 mas 'NordVPN', id: 905953485
