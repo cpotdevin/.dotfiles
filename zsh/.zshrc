@@ -85,6 +85,7 @@ export HOMEBREW_GITHUB_API_TOKEN="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"
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 export PATH="$PATH:/usr/local/opt/mysql@5.6/bin"
+export PATH="$PATH:/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin"
 
 export LIBRARY_PATH="$LIBRARY_PATH:/usr/local/opt/openssl/lib/"
 
