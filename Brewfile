@@ -44,6 +44,7 @@ brew "pnpm"
 brew "pv"
 brew "r"
 brew "redis", restart_service: true
+brew "ripgrep"
 brew "rpm"
 brew "tmux"
 brew "tree"
