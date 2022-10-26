@@ -4,11 +4,11 @@
   - command: ./pre-install.sh
     stdin: true
     stdout: true
-    description: Running pre installation script]
+    description: Running pre installation script
   - command: brew bundle
     stdin: true
     stdout: true
-    description: Install brew bundle]
+    description: Install brew bundle
   - command: curl -s "https://get.sdkman.io" | bash
     stdin: true
     stdout: true
@@ -21,5 +21,6 @@
 - link:
     ~/.zshrc: zsh/.zshrc
     ~/.tmux.conf: tmux/.tmux.conf
-    ~/.config/nvim/init.vim: nvim/init.vim
-    ~/.config/nvim/coc-settings.json: nvim/coc-settings.json
+    ~/.config/nvim/:
+      path: nvim/*
+      glob: true
