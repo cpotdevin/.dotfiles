@@ -16,6 +16,7 @@ brew "unbound"
 brew "gnutls"
 brew "cask"
 brew "cassandra", restart_service: true
+brew "deno"
 brew "eksctl"
 brew "ghostscript"
 brew "gimme-aws-creds"
