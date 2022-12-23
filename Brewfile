@@ -18,6 +18,7 @@ brew "cask"
 brew "cassandra", restart_service: true
 brew "deno"
 brew "eksctl"
+brew "entr"
 brew "ghostscript"
 brew "gimme-aws-creds"
 brew "git"
