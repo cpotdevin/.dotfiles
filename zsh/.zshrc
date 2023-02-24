@@ -91,7 +91,6 @@ export LIBRARY_PATH="$LIBRARY_PATH:/usr/local/opt/openssl/lib/"
 
 export GOBIN="$HOME/go/bin"
 export PATH="$HOME/bin:/usr/local/bin:$PATH:$GOBIN"
-export GOPRIVATE="github.com/kikinteractive/*"
 
 export PATH="$PATH:$(pyenv root)/shims"
 
@@ -123,8 +122,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # My Functions
-
-kcget() { kc ls | grep "$@" | parallel 'echo -n {}"   "; kc get {}'; }
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
