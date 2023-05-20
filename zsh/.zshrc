@@ -80,6 +80,8 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
+export EDITOR=nvim
+
 export HOMEBREW_GITHUB_API_TOKEN="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"
 
 export JAVA_HOME=$(/usr/libexec/java_home)
