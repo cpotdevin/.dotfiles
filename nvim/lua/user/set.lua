@@ -4,7 +4,7 @@ vim.opt.guicursor = ""
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
-vim.g.netrw_bufsettings = "nu relativenumber"
+vim.g.netrw_bufsettings = "noma nomod nu nobl nowrap ro rnu"
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
