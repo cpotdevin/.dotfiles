@@ -119,6 +119,9 @@ export PATH="$PATH:$(pyenv root)/shims"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
 
+alias cat="bat"
+export BAT_THEME="gruvbox-dark"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
