@@ -56,6 +56,7 @@ brew "unbound"
 brew "wget"
 brew "zookeeper", restart_service: true
 brew "zsh"
+cask "arc"
 cask "android-file-transfer"
 cask "boop"
 cask "bruno"
