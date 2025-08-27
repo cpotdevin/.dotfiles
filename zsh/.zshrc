@@ -96,6 +96,8 @@ export PATH="$HOME/bin:/usr/local/bin:$PATH:$GOBIN"
 
 export PATH="$PATH:$(pyenv root)/shims"
 
+export PATH="${HOME}/.cargo/bin:${PATH}"
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
