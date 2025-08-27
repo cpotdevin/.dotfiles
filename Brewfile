@@ -58,7 +58,6 @@ brew "wget"
 brew "zookeeper", restart_service: true
 brew "zsh"
 cask "android-file-transfer"
-cask "arc"
 cask "boop"
 cask "bruno"
 cask "corretto8"
@@ -91,6 +90,7 @@ cask "visual-studio-code"
 cask "visualvm"
 cask "vlc"
 cask "whatsapp"
+cask "zen"
 cask "zoom"
 mas 'NordVPN', id: 905953485
 mas 'QR Capture', id: 1369524274
