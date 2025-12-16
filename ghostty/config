@@ -1,0 +1,5 @@
+# Theme:
+theme = Gruvbox Dark
+background-opacity = 0.95
+font-size = 14
+font-feature = -calt, -liga, -dlig

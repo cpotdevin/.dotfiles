@@ -16,11 +16,13 @@
 
 - create:
   - ~/.config/nvim
+  - ~/.config/ghostty
   - ~/Developer
 
 - link:
     ~/.zshrc: zsh/.zshrc
     ~/.tmux.conf: tmux/.tmux.conf
+    ~/.config/ghostty/config: ghostty/config
     ~/.config/nvim/:
       path: nvim/*
       glob: true
