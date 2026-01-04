@@ -28,10 +28,6 @@ return {
       })
       vim.lsp.enable("lua_ls")
 
-      vim.lsp.enable("ts_ls")
-      vim.lsp.enable("tailwindcss")
-      vim.lsp.enable("eslint")
-
       -- Format on save
       vim.api.nvim_create_autocmd("LspAttach", {
         group = vim.api.nvim_create_augroup("my.lsp", {}),
