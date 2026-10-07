@@ -76,6 +76,8 @@ export TERM=xterm-256color
 
 source $ZSH/oh-my-zsh.sh
 
+eval "$(starship init zsh)"
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

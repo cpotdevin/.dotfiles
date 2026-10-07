@@ -51,6 +51,7 @@ brew "redis", restart_service: true
 brew "ripgrep"
 brew "rpm"
 brew "shared-mime-info"
+brew "starship"
 brew "tmux"
 brew "tree"
 brew "unbound"
