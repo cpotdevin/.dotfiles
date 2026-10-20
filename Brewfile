@@ -54,6 +54,7 @@ brew "shared-mime-info"
 brew "starship"
 brew "tmux"
 brew "tree"
+brew "tree-sitter-cli"
 brew "unbound"
 brew "wget"
 brew "zookeeper", restart_service: true
